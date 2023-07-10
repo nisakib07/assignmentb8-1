@@ -14,7 +14,7 @@
   font-size: 20px;
   font-weight: 700;
   padding: 20px 40px;
-  margin-top: 25px;
+  /* margin-top: 25px; */
 }
 
 /* Header section */
@@ -172,4 +172,56 @@
   display: flex;
   gap: 20px;
   justify-content: space-around;
+}
+
+/* Deals Section */
+
+.deals {
+  margin: 125px 100px;
+  height: 449px;
+  background-image: url("../assets/Rectangle\ 9.png");
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+}
+
+.deals-text {
+  text-align: center;
+}
+
+.deal-title {
+  color: #272727;
+  font-size: 40px;
+  font-weight: 800;
+  margin-bottom: 15px;
+}
+
+.deal-coupon {
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 40px;
+}
+
+#email {
+  height: 64px;
+  width: 700px;
+  border-radius: 8px;
+  background-color: #fff;
+  border: none;
+}
+
+label {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+#email::placeholder {
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 16px;
+  font-weight: 400;
+  padding: 22px 0px 22px 22px;
 }
