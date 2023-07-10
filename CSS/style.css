@@ -112,6 +112,28 @@
   padding: 67px 65px 0px;
 }
 
+/* Icons section */
+
+.icons-container {
+  display: flex;
+  margin: 120px 100px 0;
+  border-radius: 8px;
+  background: rgba(39, 39, 39, 0.05);
+  justify-content: space-around;
+  padding: 85px 0px;
+}
+
+.icon-text {
+  text-align: center;
+}
+
+.icon-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 /* Hot Deal Section */
 
 .hot-container {
