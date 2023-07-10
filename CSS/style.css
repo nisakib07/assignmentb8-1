@@ -49,7 +49,7 @@
   color: rgba(39, 39, 39, 0.6);
   font-size: 18px;
   font-weight: 400;
-  /* margin-bottom: 25px; */
+  margin-bottom: 25px;
 }
 
 /* Main section */
@@ -140,6 +140,7 @@
   color: rgba(39, 39, 39, 0.6);
   font-size: 18px;
   font-weight: 400;
+  margin-bottom: 25px;
 }
 
 /* Instagram section */
@@ -224,4 +225,39 @@ label {
   font-size: 16px;
   font-weight: 400;
   padding: 22px 0px 22px 22px;
+}
+
+/* Footer section */
+
+footer {
+  text-align: center;
+  padding: 128px 500px;
+  background-color: black;
+}
+
+.footer-title {
+  font-size: 48px;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+
+.orange {
+  color: #e55473;
+}
+
+.white {
+  color: #ffffff;
+}
+
+.footer-details {
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+
+.copyright {
+  color: rgba(255, 255, 255, 0.4);
+  font-size: 16px;
+  font-weight: 400;
 }
