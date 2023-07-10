@@ -125,6 +125,11 @@
 
 .icon-text {
   text-align: center;
+  margin-top: 20px;
+  color: rgba(39, 39, 39, 0.8);
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
 }
 
 .icon-details {
@@ -163,6 +168,57 @@
   font-size: 18px;
   font-weight: 400;
   margin-bottom: 25px;
+}
+
+/* Extra Section */
+
+.extra {
+  margin: 120px 100px 0px 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(205, 232, 223, 0.5);
+  padding: 80px;
+  border-radius: 8px;
+}
+
+.list-items li {
+  list-style: none;
+  color: rgba(2, 2, 2, 0.79);
+  font-size: 15px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.fa-solid {
+  color: coral;
+  margin-right: 3px;
+}
+
+.healer {
+  width: 60%;
+}
+
+.extra-img {
+  width: 40%;
+}
+
+.extra-title {
+  color: #272727;
+  font-size: 40px;
+  font-weight: 800;
+  margin-bottom: 15px;
+}
+
+.heal-span {
+  color: green;
+}
+
+.extra-details {
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 20px;
 }
 
 /* Instagram section */
